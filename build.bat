@@ -7,3 +7,6 @@ del monoff.obj
 
 cl.exe touch.cpp /nologo /EHsc /Fe:bin\touch.exe /link shell32.lib user32.lib ole32.lib oleaut32.lib
 del touch.obj
+
+cl.exe pwd.cpp /nologo /EHsc /Fe:bin\pwd.exe /link shell32.lib user32.lib ole32.lib oleaut32.lib
+del pwd.obj
